@@ -5,7 +5,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
-
+import Comparer from '../elements/CompareForm';
 const propTypes = {
   ...SectionProps.types
 }
@@ -74,6 +74,7 @@ const Hero = ({
                     </Button>
                 </ButtonGroup>
               </div>
+              <Comparer/>
             </div>
           </div>
         </div>
